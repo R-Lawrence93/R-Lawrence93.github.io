@@ -1,0 +1,118 @@
+
+<!Doctype HTML>
+<html>
+    <head>
+        <title>Fiction Construction - Quote</title>
+        <meta charset="UFT-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+
+            #quote {
+                margin-top: 80px;
+                text-align: center;
+                border: 3px solid black;
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%
+            
+            }
+      
+
+            #quote {
+                margin-top: 80px;
+                text-align: center;
+                border: 3px solid black;
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%
+            
+            }
+      
+
+        </style>
+    </head>
+    <header>
+
+        <img id = "logo"  src = "images/c-logo.png" alt = "logo"  title= "logo" height="150px" width="150px">
+        <img src = "images/Construction-Banner.png" alt = "Construction-Banner" title="Banner" width="100%">
+
+        <div class="navHead">
+            <nav>
+                <a class="headerLink" style="margin-right: 100px;" href="gallery.html">Gallery</a>
+                <a class="headerLink" style="margin-left: 100px;" href="toolhire.html">Tool Hire</a>
+    
+             </nav>
+        </div>
+
+    </header>
+    <body>
+        <main>
+            <div id= "quote">
+            <form action="submitPage.html" method = "post"></form>
+                <label for="qname">Name:</label>
+                <input type="text" id="qname" name="qname" required>
+                <br>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="qemail" name="qemail" required>
+                <br>
+                <br>
+                <br>
+                <label for="telephone">Telephone:</label>
+                <input type="text" id="qtelephone" name="qtelephone" min="1" max="11" required>
+                <br>
+                <br>
+                <br>
+                <label for="Details">Please Provide details of job for a free quote!</label>
+                <textarea id="qcomments" name="comments" rows="10" cols="100">...</textarea>
+
+                <br>
+                <br>
+                <br>
+
+                <a href="submitPage.html"><input type="submit" value="Submit"></a>
+            </form>
+            </div>
+        </main>
+
+    </body>
+    <footer>
+        <div id="container">
+        <div id="foot1">
+        <h3>Opening Hours</h3>
+        <table style="display: inline-block;">
+            <tr><th>Mon:</th><td>8am - 8pm</td></tr>
+            <tr><th>Tue:</th><td>8am - 8pm</td></tr>
+            <tr><th>Wed:</th><td>8am - 8pm</td></tr>
+            <tr><th>Thurs:</th><td>8am - 8pm</td></tr>
+            <tr><th>Fri:</th><td>8am - 8pm</td></tr>
+            <tr><th>Sat:</th><td>9am - 3pm</td></tr>
+            <tr><th>Sun:</th><td>Closed</td></tr>
+        </table>
+        </div>
+
+        <div id="foot2">
+
+        <h3>Address</h3>
+        <p>1234 Imaginary Street
+            <br>
+            <br>
+            Fictionville, FCT 54321
+            <br>
+            <br>
+            Dreamland</p>
+        </div>
+        <div id="foot3">
+            <h3>Contact</h3>
+            <p>Email: imaginaryuser@example.com
+                <br>
+                <br>
+                Phone: +1 (555) 123-4567</p>
+        </div>
+        </div>
+    </footer>
+    <script src="JS/toolhirejs.js"></script>
+</html>
