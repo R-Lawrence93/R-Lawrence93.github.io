@@ -1,0 +1,71 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#logo {
+    position: absolute;
+}
+
+.navHead {
+    text-align: center;
+    background-color: white;
+}
+
+.navHead, a {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+} 
+
+main {
+    margin: 30px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.3em;
+    word-spacing: 3px;
+    line-height: 1.3em;
+}
+
+table {
+    font-size: 1.3em;
+}
+
+ul {
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+footer {
+    margin-left: 100px;
+}
+
+#container {
+    display: flex;
+    margin: 100px;
+}
+
+#foot1 {
+    width: 30%;
+}
+
+#foot2 {
+    width: 30%;
+}
+
+#foot3 {
+    width: 30%;
+}
+
+
